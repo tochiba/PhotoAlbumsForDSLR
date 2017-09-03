@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0DE3411F5C54C6004BF53F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DE3401F5C54C6004BF53F /* AppDelegate.swift */; };
+		DB0DE3431F5C54C6004BF53F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DE3421F5C54C6004BF53F /* ViewController.swift */; };
+		DB0DE3461F5C54C6004BF53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0DE3441F5C54C6004BF53F /* Main.storyboard */; };
+		DB0DE3481F5C54C6004BF53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0DE3471F5C54C6004BF53F /* Assets.xcassets */; };
+		DB0DE34B1F5C54C6004BF53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0DE3491F5C54C6004BF53F /* LaunchScreen.storyboard */; };
+		DB0DE3561F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DE3551F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.swift */; };
+		DB0DE3611F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DE3601F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB0DE3521F5C54C6004BF53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0DE3351F5C54C6004BF53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0DE33C1F5C54C6004BF53F;
+			remoteInfo = PhotoAlbumsForDSLR;
+		};
+		DB0DE35D1F5C54C6004BF53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0DE3351F5C54C6004BF53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0DE33C1F5C54C6004BF53F;
+			remoteInfo = PhotoAlbumsForDSLR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0DE33D1F5C54C6004BF53F /* PhotoAlbumsForDSLR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAlbumsForDSLR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0DE3401F5C54C6004BF53F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB0DE3421F5C54C6004BF53F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB0DE3451F5C54C6004BF53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB0DE3471F5C54C6004BF53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB0DE34A1F5C54C6004BF53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0DE34C1F5C54C6004BF53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0DE3511F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAlbumsForDSLRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0DE3551F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumsForDSLRTests.swift; sourceTree = "<group>"; };
+		DB0DE3571F5C54C6004BF53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0DE35C1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoAlbumsForDSLRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0DE3601F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumsForDSLRUITests.swift; sourceTree = "<group>"; };
+		DB0DE3621F5C54C6004BF53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0DE33A1F5C54C6004BF53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE34E1F5C54C6004BF53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE3591F5C54C6004BF53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0DE3341F5C54C6004BF53F = {
+			isa = PBXGroup;
+			children = (
+				DB0DE33F1F5C54C6004BF53F /* PhotoAlbumsForDSLR */,
+				DB0DE3541F5C54C6004BF53F /* PhotoAlbumsForDSLRTests */,
+				DB0DE35F1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests */,
+				DB0DE33E1F5C54C6004BF53F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0DE33E1F5C54C6004BF53F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DE33D1F5C54C6004BF53F /* PhotoAlbumsForDSLR.app */,
+				DB0DE3511F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.xctest */,
+				DB0DE35C1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0DE33F1F5C54C6004BF53F /* PhotoAlbumsForDSLR */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DE3401F5C54C6004BF53F /* AppDelegate.swift */,
+				DB0DE3421F5C54C6004BF53F /* ViewController.swift */,
+				DB0DE3441F5C54C6004BF53F /* Main.storyboard */,
+				DB0DE3471F5C54C6004BF53F /* Assets.xcassets */,
+				DB0DE3491F5C54C6004BF53F /* LaunchScreen.storyboard */,
+				DB0DE34C1F5C54C6004BF53F /* Info.plist */,
+			);
+			path = PhotoAlbumsForDSLR;
+			sourceTree = "<group>";
+		};
+		DB0DE3541F5C54C6004BF53F /* PhotoAlbumsForDSLRTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DE3551F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.swift */,
+				DB0DE3571F5C54C6004BF53F /* Info.plist */,
+			);
+			path = PhotoAlbumsForDSLRTests;
+			sourceTree = "<group>";
+		};
+		DB0DE35F1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DE3601F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.swift */,
+				DB0DE3621F5C54C6004BF53F /* Info.plist */,
+			);
+			path = PhotoAlbumsForDSLRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0DE33C1F5C54C6004BF53F /* PhotoAlbumsForDSLR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0DE3651F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLR" */;
+			buildPhases = (
+				DB0DE3391F5C54C6004BF53F /* Sources */,
+				DB0DE33A1F5C54C6004BF53F /* Frameworks */,
+				DB0DE33B1F5C54C6004BF53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoAlbumsForDSLR;
+			productName = PhotoAlbumsForDSLR;
+			productReference = DB0DE33D1F5C54C6004BF53F /* PhotoAlbumsForDSLR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0DE3501F5C54C6004BF53F /* PhotoAlbumsForDSLRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0DE3681F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLRTests" */;
+			buildPhases = (
+				DB0DE34D1F5C54C6004BF53F /* Sources */,
+				DB0DE34E1F5C54C6004BF53F /* Frameworks */,
+				DB0DE34F1F5C54C6004BF53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0DE3531F5C54C6004BF53F /* PBXTargetDependency */,
+			);
+			name = PhotoAlbumsForDSLRTests;
+			productName = PhotoAlbumsForDSLRTests;
+			productReference = DB0DE3511F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0DE35B1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0DE36B1F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLRUITests" */;
+			buildPhases = (
+				DB0DE3581F5C54C6004BF53F /* Sources */,
+				DB0DE3591F5C54C6004BF53F /* Frameworks */,
+				DB0DE35A1F5C54C6004BF53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0DE35E1F5C54C6004BF53F /* PBXTargetDependency */,
+			);
+			name = PhotoAlbumsForDSLRUITests;
+			productName = PhotoAlbumsForDSLRUITests;
+			productReference = DB0DE35C1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0DE3351F5C54C6004BF53F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Toshiki Chiba";
+				TargetAttributes = {
+					DB0DE33C1F5C54C6004BF53F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AVWWV46Y77;
+						ProvisioningStyle = Automatic;
+					};
+					DB0DE3501F5C54C6004BF53F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AVWWV46Y77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0DE33C1F5C54C6004BF53F;
+					};
+					DB0DE35B1F5C54C6004BF53F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = AVWWV46Y77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB0DE33C1F5C54C6004BF53F;
+					};
+				};
+			};
+			buildConfigurationList = DB0DE3381F5C54C6004BF53F /* Build configuration list for PBXProject "PhotoAlbumsForDSLR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0DE3341F5C54C6004BF53F;
+			productRefGroup = DB0DE33E1F5C54C6004BF53F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0DE33C1F5C54C6004BF53F /* PhotoAlbumsForDSLR */,
+				DB0DE3501F5C54C6004BF53F /* PhotoAlbumsForDSLRTests */,
+				DB0DE35B1F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0DE33B1F5C54C6004BF53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0DE34B1F5C54C6004BF53F /* LaunchScreen.storyboard in Resources */,
+				DB0DE3481F5C54C6004BF53F /* Assets.xcassets in Resources */,
+				DB0DE3461F5C54C6004BF53F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE34F1F5C54C6004BF53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE35A1F5C54C6004BF53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0DE3391F5C54C6004BF53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0DE3431F5C54C6004BF53F /* ViewController.swift in Sources */,
+				DB0DE3411F5C54C6004BF53F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE34D1F5C54C6004BF53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0DE3561F5C54C6004BF53F /* PhotoAlbumsForDSLRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0DE3581F5C54C6004BF53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0DE3611F5C54C6004BF53F /* PhotoAlbumsForDSLRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0DE3531F5C54C6004BF53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0DE33C1F5C54C6004BF53F /* PhotoAlbumsForDSLR */;
+			targetProxy = DB0DE3521F5C54C6004BF53F /* PBXContainerItemProxy */;
+		};
+		DB0DE35E1F5C54C6004BF53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB0DE33C1F5C54C6004BF53F /* PhotoAlbumsForDSLR */;
+			targetProxy = DB0DE35D1F5C54C6004BF53F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB0DE3441F5C54C6004BF53F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0DE3451F5C54C6004BF53F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB0DE3491F5C54C6004BF53F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0DE34A1F5C54C6004BF53F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0DE3631F5C54C6004BF53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB0DE3641F5C54C6004BF53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0DE3661F5C54C6004BF53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB0DE3671F5C54C6004BF53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB0DE3691F5C54C6004BF53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoAlbumsForDSLR.app/PhotoAlbumsForDSLR";
+			};
+			name = Debug;
+		};
+		DB0DE36A1F5C54C6004BF53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoAlbumsForDSLR.app/PhotoAlbumsForDSLR";
+			};
+			name = Release;
+		};
+		DB0DE36C1F5C54C6004BF53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotoAlbumsForDSLR;
+			};
+			name = Debug;
+		};
+		DB0DE36D1F5C54C6004BF53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AVWWV46Y77;
+				INFOPLIST_FILE = PhotoAlbumsForDSLRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.PhotoAlbumsForDSLRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PhotoAlbumsForDSLR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0DE3381F5C54C6004BF53F /* Build configuration list for PBXProject "PhotoAlbumsForDSLR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0DE3631F5C54C6004BF53F /* Debug */,
+				DB0DE3641F5C54C6004BF53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0DE3651F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0DE3661F5C54C6004BF53F /* Debug */,
+				DB0DE3671F5C54C6004BF53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0DE3681F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0DE3691F5C54C6004BF53F /* Debug */,
+				DB0DE36A1F5C54C6004BF53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB0DE36B1F5C54C6004BF53F /* Build configuration list for PBXNativeTarget "PhotoAlbumsForDSLRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0DE36C1F5C54C6004BF53F /* Debug */,
+				DB0DE36D1F5C54C6004BF53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0DE3351F5C54C6004BF53F /* Project object */;
+}
